@@ -1,0 +1,197 @@
+/**
+*  Publish Foundation theme
+*  Copyright (c) John Sundell 2019
+*  MIT license, see LICENSE file for details
+*/
+/* line 8, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 14, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+body {
+  background: #fff;
+  color: #000;
+  font-family: Helvetica, Arial;
+  text-align: center;
+}
+
+/* line 21, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.wrapper {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: left;
+}
+
+/* line 29, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+header {
+  background-color: #dbecdf;
+}
+
+/* line 33, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+header .wrapper {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: right;
+}
+
+/* line 39, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+header a {
+  text-decoration: none;
+}
+
+/* line 43, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+header .site-name {
+  font-size: 1.5em;
+  color: #000;
+  font-weight: bold;
+}
+
+/* line 49, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+nav {
+  margin-top: 20px;
+}
+
+/* line 53, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+nav li {
+  display: inline-block;
+  margin: 0 7px;
+  line-height: 1.5em;
+}
+
+/* line 59, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+nav li a.selected {
+  text-decoration: underline;
+}
+
+/* line 63, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+/* line 68, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+h2 {
+  margin: 20px 0;
+}
+
+/* line 72, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 76, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+a {
+  color: inherit;
+}
+
+/* line 80, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.description {
+  margin-bottom: 40px;
+}
+
+/* line 84, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.item-list > li {
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+
+/* line 92, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.item-list > li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 96, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.item-list h1 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+/* line 101, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.item-list p {
+  margin-bottom: 0;
+}
+
+/* line 105, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.tag-list {
+  margin-bottom: 15px;
+}
+
+/* line 109, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.tag-list li,
+.tag {
+  display: inline-block;
+  background-color: #000;
+  color: #ddd;
+  padding: 4px 6px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* line 119, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.tag-list a,
+.tag a {
+  text-decoration: none;
+}
+
+/* line 124, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.item-page .tag-list {
+  display: inline-block;
+}
+
+/* line 128, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.content {
+  margin-bottom: 40px;
+}
+
+/* line 132, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.browse-all {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* line 137, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+.all-tags li {
+  font-size: 1.4em;
+  margin-right: 10px;
+  padding: 6px 10px;
+}
+
+/* line 143, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+footer {
+  color: #8a8a8a;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* line 148, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+  body {
+    background-color: #222;
+  }
+  /* line 152, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+  body,
+header .site-name {
+    color: #ddd;
+  }
+  /* line 157, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+  .item-list > li {
+    background-color: #333;
+  }
+  /* line 161, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+  header {
+    background-color: #000;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 167, ../../../../../../../../Documents/iOS/SunnyWebsite/Sources/SunnyWebsite/Theme/styles.scss */
+  .wrapper {
+    padding: 40px 20px;
+  }
+}
